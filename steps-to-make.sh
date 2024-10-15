@@ -42,13 +42,6 @@ make install
 
 module load GCCcore/11.3.0 GCC/11.3.0 Autotools/20220317 libtool/2.4.7 PCRE/8.45 PGPLOT/5.2.2 SOFA_C/19
 
-# wget http://www.iausofa.org/2023_1011_C/sofa_c-20231011.tar.gz
-# tar -xvzf sofa_c-20231011.tar.gz
-# cd sofa/VERSION/c/src
-# make
-# make test
-
-# on scrtpc, do this
 export CPPFLAGS="-I$HOME/include/ -fPIC"
 export LDFLAGS="-L$HOME/lib/ -fPIC"
 
